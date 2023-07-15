@@ -718,7 +718,7 @@
     .subscribe {
         margin-top: 10vh;
         width: 100vw;
-        border: 2px solid;
+        /* border: 2px solid; */
     }
 
     .subscribe-container {
