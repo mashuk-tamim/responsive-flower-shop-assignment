@@ -747,8 +747,38 @@
         margin-right: 10px;
 
     }
-    #subs-descrip{
+
+    #subs-descrip {
         margin: 0px 0px 5px;
+    }
+
+    /* footer section starts */
+    .footer-container {
+        height: 50vh;
+    }
+
+    .footer-title {
+        color: white;
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .footer-description1 {
+        font-size: 15px;
+        width: 70vw;
+        margin: auto;
+    }
+
+    .footer-description2 {
+        font-size: 15px;
+        width: 600px;
+        margin: 30px 0px 0px;
+    }
+
+    .social-links-img {
+        margin-right: 10px;
+        width: 25px;
+        margin-bottom: 20px;
     }
 
 }
