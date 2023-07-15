@@ -704,14 +704,51 @@
 
     .insta-photo-section {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 90vw;
         /* border: 2px solid; */
     }
 
     .insta-photos {
-        margin: auto;
+        /* margin: auto; */
         width: 45vw;
+    }
+
+    /* subscription section starts */
+    .subscribe {
+        margin-top: 10vh;
+        width: 100vw;
+        border: 2px solid;
+    }
+
+    .subscribe-container {
+        background-image: url('../Flower Asset/Rectangle 9.png');
+        width: 100vw;
+        height: 35vh;
+        flex: 1;
+        overflow: hidden;
+        /* margin: auto; */
+        /* border: 2px solid; */
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        /* border: 2px solid; */
+        justify-content: center;
+    }
+
+    #email {
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 12px;
+        padding: 10px;
+        border: 0px;
+        padding-right: 100px;
+        margin-right: 10px;
+
+    }
+    #subs-descrip{
+        margin: 0px 0px 5px;
     }
 
 }
