@@ -671,27 +671,47 @@
         flex-direction: column;
         height: auto;
     }
-    .arrival-frame1, .arrival-frame2, .arrival-frame3{
+
+    .arrival-frame1,
+    .arrival-frame2,
+    .arrival-frame3 {
         margin-bottom: 70px;
         margin-top: 50px;
     }
+
     .arrival-image1,
     .arrival-image2,
     .arrival-image3 {
         width: 50vw;
         /* height: 280px; */
         margin: 0px;
-        box-shadow: 10px 10px 25px #cb7485;
-        border-bottom: 70px solid #c597a0;
-        border-top: 10px solid #c597a0;
-        border-left: 10px solid #c597a0;
-        border-right: 10px solid #c597a0;
     }
 
     .img-title {
         font-size: 20px;
-        color: rgb(72, 67, 67);
         margin: -55px;
+    }
+
+    /* instagram section starts */
+    .insta {
+        margin-top: 10vh;
+    }
+
+    .insta-container {
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .insta-photo-section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90vw;
+        /* border: 2px solid; */
+    }
+
+    .insta-photos {
+        margin: auto;
+        width: 45vw;
     }
 
 }
