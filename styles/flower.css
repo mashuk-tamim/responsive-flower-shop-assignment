@@ -90,7 +90,7 @@
     border-radius: inherit;
 }
 
-.src-button:hover{
+.src-button:hover {
     cursor: pointer;
 }
 
@@ -284,6 +284,7 @@
     height: 130vh;
     background-color: rgba(110, 199, 203, 0.15);
 }
+
 .arrival-container {
     margin: auto;
     /* margin-left: 150px; */
@@ -294,6 +295,7 @@
     /* border: 2px solid; */
 
 }
+
 .arrival-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -304,13 +306,16 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 .arrival-photos {
     display: flex;
     justify-content: space-between;
     height: 400px;
 }
 
-.arrival-image1, .arrival-image2, .arrival-image3 {
+.arrival-image1,
+.arrival-image2,
+.arrival-image3 {
     width: 250px;
     /* height: 280px; */
     margin: 15px;
@@ -321,7 +326,7 @@
     border-right: 10px solid #c597a0;
 }
 
-.img-title{
+.img-title {
     font-size: 20px;
     color: rgb(72, 67, 67);
     margin: -65px;
@@ -401,6 +406,7 @@
     font-size: 48px;
     font-weight: 800;
 }
+
 .footer-description1 {
     color: rgba(255, 255, 255, 0.90);
     font-family: Lato;
@@ -434,30 +440,86 @@
     font-style: normal;
     font-weight: 400;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
 @media screen and (max-width: 576px) {
-    #none{
+    #none {
         display: none;
     }
-    .navigation {
-        height: 10vh;
-        background-color: #c597a0;
+    .button-primary {
+        border-radius: 8px;
+        background-color: #E55473;
+        padding: 10px 20px;
+        border: 0px;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
     }
-    .nav-container{
+
+    .navigation {
+        height: 8vh;
+        background-color: #c597a0;
+        /* border: 2px solid; */
+    }
+
+    .nav-container {
         width: 100vw;
         height: 5vh;
         justify-content: space-around;
         padding: 10px;
         /* border: 2px solid ; */
     }
+
     .nav-logo {
         width: 20vw;
     }
-    .nav-pagelinks{
+
+    .nav-pagelinks {
         font-size: 13px;
         gap: 15px;
+        /* border: 2px solid black; */
+    }
+
+    /* banner style here */
+    .banner-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(229, 84, 115, 0.10);
+        width: 100vw;
+        height: 100vh;
+        border: 2px solid;
+
+    }
+
+    .banner-text {
+        width: 50vw;
+        /* border: 2px solid; */
+        margin-left: 0px;
+    }
+
+    .banner-title {
+        color: #272727;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .banner-description {
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 5px 0px 10px;
+        /* border: 2px solid; */
+    }
+
+    .banner-photo {
+        width: 40vw;
+        margin-top: 0px;
+        margin-right: 0px;
+        /* border: 2px solid; */
     }
 }
